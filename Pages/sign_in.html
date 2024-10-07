@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\Styles\sign_in.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="book">BookVault</div>
+            <div class="menu-bar" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="nav-menu" class="nav-menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><button onclick="window.location.href='/Pages/sign_in.html';">Sign In </button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="boxes">
+        <div class="box box1">
+            <div class="container">
+                <form id="signInForm">
+                    <h2>Sign In</h2>
+
+                    <div class="input-field">
+                        <input type="text" id="username" name="username" placeholder="registration number" required>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" id="password" name="password" placeholder="password" required>
+                    </div>
+
+                    <button type="submit">Sign In</button>
+                </form>
+                <div class="forgot">
+                    <a href="">Forgotton your password?</a>
+                </div>
+            </div>
+        </div>
+        <div class="box box2">
+            <div class="glass">
+                <p>Start your journey by one click, explore beautiful world of books!</p>
+                <img src="/Assets/images/image1.png" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="\Scripts\sign_in.js"></script>
+</body>
+
+</html>

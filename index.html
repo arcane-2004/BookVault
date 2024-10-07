@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/home.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="book">BookVault</div>
+            <div class="menu-bar" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="nav-menu" class="nav-menu">
+                <ul>
+                  <li><a href= "index.html">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><button onclick="window.location.href='/Pages/sign_in.html';">Sign In</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="text">
+        <div class="text-bold">Welcome to BookVault - Your Ultimate Academic Resource Hub!</div>
+        <div class="text-thin">At BookVault, we believe in empowering students and faculty by providing easy access to a vast collection of academic resources.Whether you're looking for textbooks, research papers, or study materials, our digital library has everything you need to succeed in your academic journey.</div>
+    </div>
+
+    <div class="search">
+        <form action=" Search" method = "GET">
+            <input type= "  text" placeholder="Search....">
+            <button>Search</button>
+        </form>
+    </div>
+
+    <script src="Scripts/home.js"></script>
+</body>
+</html>
