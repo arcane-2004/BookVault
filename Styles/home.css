@@ -3,8 +3,15 @@
     margin: 0;
 }
 
+body {
+    /* background-image: url("https://image.slidesdocs.com/responsive-images/docs/delicate-green-watercolor-plant-leaf-with-stylish-appeal-page-border-background-word-template_cf55eedfa7__1131_1600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #1b7a6a44;
+}
+
 .nav {
-    background-color: #1b7a6ae6;
+    background-color: #1b7a6a;
     height: 49px;
     padding: 0px 20px;
     display: flex;
@@ -27,7 +34,7 @@
     display: none;
     background-color: #333;
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 0;
     width: 100%;
     padding: 10px;
@@ -57,7 +64,7 @@
     background-color: black;
 }
 
-.nav-menu button{
+.nav-menu button {
     height: 30px;
     width: 63px;
     font-size: 1rem;
@@ -67,7 +74,7 @@
     border-radius: 7px;
 }
 
-.nav-menu button:hover{
+.nav-menu button:hover {
     cursor: pointer;
     background-color: rgba(170, 246, 246, 0.114);
 }
@@ -102,26 +109,32 @@
 }
 
 .search form input {
-    font-size: 18px;
-    padding: 10px;
-    width: 80vh;
-    border: 2px solid rgba(5, 52, 52, 0.593);;
+    width: 30vw;
+    height: 5vh;
+    font-size: 1vw;
+    border: 2px solid rgba(5, 52, 52, 0.593);
+    ;
     border-radius: 7px;
 }
 
-.search form input:focus{
+.search form input:focus {
     border-color: rgba(18, 222, 222, 0.593);
     outline: none;
 }
 
 .search form button {
-    height: 35px;
-    width: 10vh;
+    width: 5vw;
+    height: 4.5vh;
+    font-size: 1vw;
     border-radius: 7px;
     padding: 0 5px 0px 0;
     border: 2px solid #1b7a6ae6;
     color: #1b7a6ae6;
-    font-size: 1rem;
     background-color: rgba(0, 0, 0, .02);
     cursor: pointer;
+}
+
+.search form button:hover {
+    background-color: #1b7a6ae6;
+    color: whitesmoke;
 }

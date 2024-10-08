@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="vitlogo.jpg">
+    <title>Sign_in</title>
     <link rel="stylesheet" href="\BookVault\Styles\sign_in.css">
 </head>
 
@@ -20,7 +21,7 @@
             <div id="nav-menu" class="nav-menu">
                 <ul>
                     <li><a href="\BookVault\index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="/BookVault/Pages/about.html">About</a></li>
                     <li><button onclick="window.location.href='/BookVault/Pages/sign_in.html';">Sign In </button></li>
                 </ul>
             </div>
@@ -30,16 +31,17 @@
     <div class="boxes">
         <div class="box box1">
             <div class="sign-up-form">
-                <h1>Sign Up Now</h1>
+                <h1>Sign In</h1>
                 <form>
                     <input type="email" class="input-box" placeholder="Your Email">
                     <input type="password" class="input-box" placeholder="Your password">
-                    <p><span><input type="checkbox"></span> I agree to the terms of servies</p>
-                    <button type="button" class="signup-btn" onclick="window.location.href='/BookVault/Pages/sign_in.html';">Sign Up</button>
+
+                    <button type="button" class="signup-btn"  onclick="window.location.href='/BookVault/Pages/sign_in.html';">Sign In</button>
+         <p><span><input type="checkbox"></span> I agree to the terms of servies</p>
+                    <button type="button" class="signup-btn">Sign Up</button>
                     <hr>
                     <p class="or" >OR</p>
                     <button type="button" class="signup-btn">Login with google</button>
-                    <p>Do you have an account ? <a href="#"> Sign in </a></p>
                 </form>
             </div>
         </div>
