@@ -1,25 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-body{
+
+body {
     background-image: url("https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg");
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
+
 .sign-up-form {
     width: 300px;
-    box-shadow: 0 0 3px 0 rgb(0,0,0,0.3);
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0, 0.3);
     background-color: #fff;
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
 }
-.sign-up-form h1{
+
+.sign-up-form h1 {
     color: #1b7a6aac;
     margin-bottom: 30px;
 }
+
 .input-box {
     border-radius: 20px;
     padding: 10px;
@@ -28,7 +32,8 @@ body{
     border: 1px solid #999;
     outline: none;
 }
-.signup-btn{
+
+.signup-btn {
     color: #fff;
     width: 80%;
     padding: 10px;
@@ -39,11 +44,13 @@ body{
     outline: none;
     cursor: pointer;
 }
-.signup-btn{
+
+.signup-btn {
     background-color: #1b7a6ae6;
 }
+
 .nav {
-    background-color: #1b7a6ae6;
+    background-color: #1b7a6a;
     height: 49px;
     padding: 0px 20px;
     display: flex;
@@ -66,7 +73,7 @@ body{
     display: none;
     background-color: #333;
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 0;
     width: 100%;
     padding: 10px;
@@ -96,7 +103,7 @@ body{
     background-color: black;
 }
 
-.nav-menu button{
+.nav-menu button {
     height: 30px;
     width: 63px;
     font-size: 1rem;
@@ -106,7 +113,7 @@ body{
     border-radius: 7px;
 }
 
-.nav-menu button:hover{
+.nav-menu button:hover {
     cursor: pointer;
     background-color: rgba(170, 246, 246, 0.114);
 }
@@ -116,7 +123,7 @@ body{
     font-size: 26px;
 }
 
-.box{
+.box {
     display: flex;
     width: 40%;
     height: 80vh;
@@ -125,14 +132,14 @@ body{
 }
 
 
-.boxes{
+.boxes {
     margin: 13px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.box1 .container{
+.box1 .container {
     /* border: 2px solid black; */
     height: 65vh;
     width: 28vw;
@@ -152,18 +159,18 @@ h2 {
     margin-bottom: 15px;
 }
 
-.container input{
-    padding: 5px    ;
+.container input {
+    padding: 5px;
     height: 40px;
     width: 26vw;
 }
 
-.container input:focus{
+.container input:focus {
     border-color: rgba(18, 222, 222, 0.593);
     outline: none;
 }
 
-.container button{
+.container button {
     height: 40px;
     width: 27vw;
     font-size: 1rem;
@@ -175,7 +182,7 @@ h2 {
     background-color: rgba(0, 0, 0, .02);
 }
 
-.container button:hover{
+.container button:hover {
     background-color: rgba(7, 30, 12, 0.078);
 }
 
